@@ -1,0 +1,36 @@
+.contenedor-playeras{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap:  20px;
+}
+
+.contenedor{
+	width: 98%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+	display: flex;
+	gap: 20px;
+}
+.card{
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	
+	width: cal(33.33% - 20px );
+}
+
+.contenedor-total{
+	position: relative;
+	padding: 5%;
+	margin: 2%;
+	border-style: solid;
+}
+
